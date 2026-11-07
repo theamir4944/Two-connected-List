@@ -4,7 +4,9 @@
 
 В действительности все куда интереснее ;)
 
-![](dump_screen.png)
+
+<img width="1599" height="646" alt="dump_screen_1" src="https://github.com/user-attachments/assets/6ec3e594-c2ac-4e07-ab38-3cdf5858db5c" />
+
 
 # 1. Введение в TC-LIST
 
@@ -93,12 +95,14 @@ g++ .\main_file.cpp -o .\main_file.exe
 
 Инициализированный список:
 
-![dump_screen_0](dump_screen_0.png)
+<img width="260" height="318" alt="dump_screen_0" src="https://github.com/user-attachments/assets/db31857b-ee6c-4377-b104-cc488df8c272" />
+
 
 Пример дампа при штатной работе списка:
 
-![dump_screen_1](dump_screen_1.png)
+<img width="1599" height="646" alt="dump_screen_1" src="https://github.com/user-attachments/assets/f3f84251-ab48-423c-8b6e-3085050893ae" />
+
 
 Пример дампа при «отлове» ошибки:
 
-![dump_screen_2](dump_screen_2.png)
+<img width="1511" height="641" alt="dump_screen_2" src="https://github.com/user-attachments/assets/69a2993f-f63c-471d-9e5a-2291c009532e" />
