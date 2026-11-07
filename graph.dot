@@ -1,0 +1,45 @@
+digraph {
+
+rankdir = TB
+node [shape = Mrecord, fontcolor="black", style="filled"]
+splines = ortho;
+nodesep = 1.0;
+ranksep = 1.0;
+{ rank = same; "node0"; "node1"; "node2"; "node3"; "node4"; "node5"; "node6"; "node7"; "node8"; "node9"; "node10"; "node11"; "node12"; "node13"; "node14"; "node15"; "node16";}
+"node0" [label = "{index: 0 | value: 2.18215e+08 | { next: 6 | prev: 3 }}", color="orange", fillcolor="lightyellow"]
+"node1" [label = "{index: 1 | value:         76 | { next: 5 | prev: 6 }}", color="gray", fillcolor="lightgray"]
+"node2" [label = "{index: 2 | value:          7 | { next: 3 | prev: 5 }}", color="gray", fillcolor="lightgray"]
+"node3" [label = "{index: 3 | value:          8 | { next: 0 | prev: 2 }}", color="red", fillcolor="lightpink"]
+"node4" [label = "{index: 4 | value: 2.18215e+08 | { next: 7 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node5" [label = "{index: 5 | value:         67 | { next: 2 | prev: 1 }}", color="gray", fillcolor="lightgray"]
+"node6" [label = "{index: 6 | value:          5 | { next: 1 | prev: 0 }}", color="blue", fillcolor="lightblue"]
+"node7" [label = "{index: 7 | value: 2.18215e+08 | { next: 8 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node8" [label = "{index: 8 | value: 2.18215e+08 | { next: 9 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node9" [label = "{index: 9 | value: 2.18215e+08 | { next: 10 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node10" [label = "{index: 10 | value: 2.18215e+08 | { next: 11 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node11" [label = "{index: 11 | value: 2.18215e+08 | { next: 12 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node12" [label = "{index: 12 | value: 2.18215e+08 | { next: 13 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node13" [label = "{index: 13 | value: 2.18215e+08 | { next: 14 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node14" [label = "{index: 14 | value: 2.18215e+08 | { next: 15 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node15" [label = "{index: 15 | value: 2.18215e+08 | { next: 16 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+"node16" [label = "{index: 16 | value: 2.18215e+08 | { next: 0 | prev: -1 }}", color="green", fillcolor="lightgreen"]
+trash [label = "TRASH", color="black", fillcolor="white"]
+"node0" -> "node6" [dir = both, color="black"];
+"node1" -> "node5" [dir = both, color="black"];
+"node2" -> "node3" [dir = both, color="black"];
+"node3" -> "node0" [dir = both, color="black"];
+"node4" -> "node7" [color="green"];
+"node5" -> "node2" [dir = both, color="black"];
+"node6" -> "node1" [dir = both, color="black"];
+"node7" -> "node8" [color="green"];
+"node8" -> "node9" [color="green"];
+"node9" -> "node10" [color="green"];
+"node10" -> "node11" [color="green"];
+"node11" -> "node12" [color="green"];
+"node12" -> "node13" [color="green"];
+"node13" -> "node14" [color="green"];
+"node14" -> "node15" [color="green"];
+"node15" -> "node16" [color="green"];
+"node16" -> "node0" [color="green"];
+
+}
